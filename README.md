@@ -6,10 +6,10 @@
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" />
   </a>
   <a href="https://github.com/Psypher1/the-language-hub/fork" target="blank">
-<img src="https://img.shields.io/github/forks/Psypher1/the-language-hub?style=flat-square" alt="tryshape forks"/>
+<img src="https://img.shields.io/github/forks/Psypher1/magical-world?style=flat-square" alt="tryshape forks"/>
 </a>
-<a href="https://github.com/Psypher1/the-language-hub/stargazers" target="blank">
-<img src="https://img.shields.io/github/stars/Psypher1/the-language-hub?style=flat-square" alt="tryshape stars"/>
+<a href="https://github.com/Psypher1/magical-world/stargazers" target="blank">
+<img src="https://img.shields.io/github/stars/Psypher1/magical-world?style=flat-square" alt="tryshape stars"/>
 </a>
 
 </p>
