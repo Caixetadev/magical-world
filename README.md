@@ -1,15 +1,22 @@
 <h1 align="center">Welcome to My Magical World - Potions Room 👋</h1>
-<p>
+
+<p align='center'>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" />
   </a>
-  <a href="https://twitter.com/Psypher1" target="_blank">
-    <img alt="Twitter: Psypher1" src="https://img.shields.io/twitter/follow/Psypher1.svg?style=social" />
-  </a>
+  <a href="https://github.com/Psypher1/the-language-hub/fork" target="blank">
+<img src="https://img.shields.io/github/forks/Psypher1/the-language-hub?style=flat-square" alt="tryshape forks"/>
+</a>
+<a href="https://github.com/Psypher1/the-language-hub/stargazers" target="blank">
+<img src="https://img.shields.io/github/stars/Psypher1/the-language-hub?style=flat-square" alt="tryshape stars"/>
+</a>
+
 </p>
 
-> My updated portfolio site
+This is my updated portfolio site
+
+<br/>
 
 ### 🏠 [Homepage](https://jamesmidzi.com)
 
