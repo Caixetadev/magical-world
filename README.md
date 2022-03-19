@@ -1,34 +1,91 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Welcome to My Magical World - Potions Room 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/Psypher1" target="_blank">
+    <img alt="Twitter: Psypher1" src="https://img.shields.io/twitter/follow/Psypher1.svg?style=social" />
+  </a>
+</p>
 
-## Getting Started
+> My updated portfolio site
 
-First, run the development server:
+### 🏠 [Homepage](https://jamesmidzi.com)
+
+---
+
+## 🏗️ Running Locally
+
+1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
+git clone https://github.com/Psypher1/magical-world.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Change the working directory
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+cd magical-world
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+3. Install dependencies
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+npm install # or, yarn install
+```
 
-## Learn More
+4. Run the app
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run dev # or, yarn dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+That's All!!! Now open [localhost:3000](http://localhost:3000/) to see the app.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚧 Built With
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Next.js](https://nextjs.org)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Chakra UI](https://chakra-ui.com/)
+- [FontAwesome](https://fontawesome.com/)
+- [Markdown](https://nextjs.org)
+- [next-mdx-remote](https://github.com/hashicorp/next-mdx-remote)
+- [next-seo](https://github.com/garmeeh/next-seo)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Overview
+
+- `components/*` - Contains all components related to pages (blog, projects, about, etc).
+  - `shared/*` - All reusable components like header, footer etc.
+  - `layouts/*` - The different page layouts.
+  - `theme/*` - Manage theme of site.
+- `data/*` - Data that used for blog posts, projects etc.
+- `utils/*` - Collection of helpful utilities or code for external services like devto api.
+- `pages/api/*` - [API routes](https://nextjs.org/docs/api-routes/introduction).
+- `pages/blog/*` - Static pre-rendered blog pages using MDX.
+- `pages/*` - All other static pages.
+
+- `public/*` - Static assets including audios, fonts and images.
+
+## 🛡️ License
+
+This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
+
+---
+
+## Author
+
+👤 **James**
+
+- Website: https://jamesmidzi.netlify.app/
+- Twitter: [@Psypher1](https://twitter.com/Psypher1)
+- Github: [@Psypher1](https://github.com/Psypher1)
+- LinkedIn: [@jamesmidzi](https://linkedin.com/in/jamesmidzi)
+
+---
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
