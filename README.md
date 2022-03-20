@@ -18,7 +18,7 @@ This is my updated portfolio site
 
 <br/>
 
-### 🏠 [Homepage](https://jamesmidzi.com)
+<!-- ### 🏠 [Homepage](https://jamesmidzi.com) -->
 
 ---
 

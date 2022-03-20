@@ -9,7 +9,12 @@ function MyApp({ Component, pageProps }: AppProps) {
   return(
     <>
     <DefaultSeo {...SEO} />
-     <Component {...pageProps} />
+
+
+    <main className='max-w-5xl  mx-auto min-h-screen'>
+    <Component {...pageProps} />
+    </main>
+    
     </>
   )
 }
