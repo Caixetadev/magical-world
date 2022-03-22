@@ -1,22 +1,22 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import "../styles/globals.css";
+import type { AppProps } from "next/app";
 
 // SEO Imports
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
+import AppLayout from "../components/layouts/AppLayout";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return(
+  return (
     <>
-    <DefaultSeo {...SEO} />
-
-
-    <main className='max-w-5xl  mx-auto min-h-screen'>
-    <Component {...pageProps} />
-    </main>
-    
+      <DefaultSeo {...SEO} />
+      <AppLayout>
+        <main className="mx-auto min-h-screen max-w-5xl">
+          <Component {...pageProps} />
+        </main>
+      </AppLayout>
     </>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;

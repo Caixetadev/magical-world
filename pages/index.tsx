@@ -1,12 +1,12 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import Meta from "../components/SEO/Meta"
-import styles from '../styles/Home.module.css'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import Meta from "../components/SEO/Meta";
+import styles from "../styles/Home.module.css";
 
-export interface IPageMeta  {
-  title?: string
-  description?: string
+export interface IPageMeta {
+  title?: string;
+  description?: string;
 }
 
 const Home: NextPage = () => {
@@ -18,27 +18,26 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head> */}
       <Meta
-     pageMeta={{
-       title: "Potions Room"
-     }}
+        pageMeta={{
+          title: "Potions Room",
+        }}
       />
 
-      <main className='py-24 px-20 mx-auto bg-gray-900 min-h-screen'>
-        <h1 className='text-6xl text-center  mb-4 font-accent'>
+      <main className="mx-auto min-h-screen bg-gray-900 py-24 px-20">
+        <h1 className="mb-4 text-center  font-headingAlt text-6xl">
           Welcome to My Potions Room!
         </h1>
-      <p className='max-w-[65ch] text-lg'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas incidunt fuga voluptatibus blanditiis tenetur autem sequi ad, vel suscipit eveniet, dolorum impedit, omnis qui id? Excepturi quisquam laudantium dolores illum.</p>
+        <p className="max-w-[65ch] text-lg">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          incidunt fuga voluptatibus blanditiis tenetur autem sequi ad, vel
+          suscipit eveniet, dolorum impedit, omnis qui id? Excepturi quisquam
+          laudantium dolores illum.
+        </p>
 
-
-
-     <div className="page"></div>
-       
+        <div className="page"></div>
       </main>
-
-    
-      
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

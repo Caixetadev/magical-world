@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         body: ["Quattrocento", "serif"],
         heading: ["Quattrocento Sans", "sans-serif"],
+        headingAlt: ["MedievalSharp", "cursive"],
         accent: ["Allura", "cursive"],
       },
     },
