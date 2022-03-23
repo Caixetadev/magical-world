@@ -23,11 +23,11 @@ const Home: NextPage = () => {
         }}
       />
 
-      <main className="mx-auto min-h-screen bg-gray-900 py-24 px-20">
-        <h1 className="mb-4 text-center  font-headingAlt text-6xl">
-          Welcome to My Potions Room!
+      <main className="">
+        <h1 className="mb-4 text-center font-headingAlt  text-6xl">
+          My Potions Room
         </h1>
-        <p className="max-w-[65ch] text-lg">
+        <p className="max-w-[65ch] text-base">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
           incidunt fuga voluptatibus blanditiis tenetur autem sequi ad, vel
           suscipit eveniet, dolorum impedit, omnis qui id? Excepturi quisquam

@@ -44,7 +44,7 @@ export default function Document() {
           referrerPolicy="no-referrer"
         /> */}
       </Head>
-      <body className="bg-gradient-to-br from-emerald-900 to-green-900 text-gray-100 font-heading min-h-screen">
+      <body className="min-h-screen bg-gradient-to-br from-emerald-900 to-green-900 font-heading text-gray-100">
         <Main />
         <NextScript />
       </body>

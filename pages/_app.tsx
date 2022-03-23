@@ -11,9 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <DefaultSeo {...SEO} />
       <AppLayout>
-        <main className="mx-auto min-h-screen max-w-5xl">
-          <Component {...pageProps} />
-        </main>
+        <Component {...pageProps} />
       </AppLayout>
     </>
   );
