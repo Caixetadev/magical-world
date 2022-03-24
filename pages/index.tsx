@@ -24,7 +24,7 @@ const Home: NextPage = () => {
       />
 
       <main className="">
-        <h1 className="mb-4 text-center font-headingAlt  text-6xl">
+        <h1 className="mb-8 text-center font-primary text-5xl  leading-loose tracking-wider">
           My Potions Room
         </h1>
         <p className="max-w-[65ch] text-base">

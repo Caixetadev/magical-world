@@ -12,8 +12,10 @@ export default function Document() {
           crossOrigin=""
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap"
-          rel="stylesheet"
+          rel="preload"
+          href="/assets/fonts/Magic_Spell_JF.otf"
+          as="font"
+          crossOrigin=""
         />
 
         {/* Favicons */}
@@ -44,7 +46,7 @@ export default function Document() {
           referrerPolicy="no-referrer"
         /> */}
       </Head>
-      <body className="min-h-screen bg-gradient-to-br from-emerald-900 to-green-900 font-heading text-gray-100">
+      <body className="min-h-screen bg-gradient-to-br from-emerald-900 to-green-900 font-body text-gray-100">
         <Main />
         <NextScript />
       </body>

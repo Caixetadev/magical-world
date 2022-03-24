@@ -1,4 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=MedievalSharp&family=Quattrocento+Sans:ital@0;1&family=Quattrocento:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=MedievalSharp&family=Quattrocento+Sans:ital@0;1&family=Quattrocento:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "Magic_Spell";
+  src: url("/assets/fonts/Magic_Spell.otf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+/* 
+@font-face {
+  font-family: "Magic_Spell";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/Magic_Spell.woff2") format("woff2"),
+    url("/assets/fonts/Magic_Spell.woff") format("woff");
+} */
 
 @tailwind base;
 @tailwind components;
