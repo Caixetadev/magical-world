@@ -1,12 +1,12 @@
 export default {
-  title: "James 'Dante' Midzi",
+  title: "James Midzi",
   description: "Half Stack Developer | Writer | Tutor",
   canonical: "https://jamesmidzi.vercel.app/",
   openGraph: {
     type: "website",
     locale: "en_IE",
     url: "https://jamesmidzi.vercel.app/",
-    site_name: "James 'Dante' Midzi",
+    site_name: "James Midzi",
   },
   twitter: {
     handle: "@Psypher1",

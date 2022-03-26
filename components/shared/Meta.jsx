@@ -10,7 +10,7 @@ export default function Meta({ pageMeta }) {
     ...pageMeta,
   };
   const SEO = {
-    title: meta.title,
+    title: `${meta.title} | James Midzi`,
     description: meta.description,
 
     openGraph: {

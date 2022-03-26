@@ -8,11 +8,17 @@ module.exports = {
       fontFamily: {
         body: ["Quattrocento", "serif"],
         heading: ["Quattrocento Sans", "sans-serif"],
-        primary: ["Magic_Spell", 'cursive'],
+        primary: ["Magic_Spell", "cursive"],
         headingAlt: ["MedievalSharp", "cursive"],
         accent: ["Allura", "cursive"],
       },
+      color: {
+        primary: "#583527",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography"),
+    // ...
+  ],
 };
