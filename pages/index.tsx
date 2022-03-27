@@ -16,7 +16,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
 const title = "Hi, I'm  James";
 const subtitle =
-  "I am a Wizard (Half Stack Developer), Curator (Writer) and Professor (Tutor). I believe that knowledge should be shared, and I try to do my part in that regard each day. I am on a journey to become a reknown Potions Master.";
+  "I am a Draziw, Curator and Professor . I believe that knowledge should be shared, and I try to do my part in that regard each day. I am on a journey to become a reknown Potions Master.";
 
 const Home: NextPage = () => {
   return (

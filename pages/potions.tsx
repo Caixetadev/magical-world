@@ -1,7 +1,8 @@
 // PROJECTS
 import { PageLayout, PageTitle } from "components";
+import { GiCauldron } from "react-icons/gi";
 
-const title = "PotionsP";
+const title = "Potions";
 const subtitle =
   "To be great potion master, one has to brew a lot of potions. Here are some of the potions I have concocted.";
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaDev, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const links = [
@@ -18,17 +19,17 @@ export default function SocialIcons() {
   return (
     <div className="my-6 flex flex-row text-2xl ">
       {links.map(({ Icon, href }, i) => (
-        <a
-          key={href}
-          href={href}
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-          className={`text-gray-300 transition-colors hover:text-white ${
-            i < links.length - 1 ? "mr-3" : ""
-          }`}
-        >
-          <Icon />
-        </a>
+        <Link key={href} href={href}>
+          <a
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className={`text-gray-300 transition-colors hover:text-white ${
+              i < links.length - 1 ? "mr-3" : ""
+            }`}
+          >
+            <Icon />
+          </a>
+        </Link>
       ))}
     </div>
   );
