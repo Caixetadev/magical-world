@@ -1,8 +1,7 @@
 // PROJECTS
-import PageLayout from "@components/layouts/PageLayout";
-import { PageTitle } from "@components/shared";
+import { PageLayout, PageTitle } from "components";
 
-const title = "My Potions Room";
+const title = "PotionsP";
 const subtitle =
   "To be great potion master, one has to brew a lot of potions. Here are some of the potions I have concocted.";
 
@@ -12,9 +11,15 @@ export default function Potions() {
       <PageTitle title={title} subtitle={subtitle} />
       <div>
         {/* <Meta pageMeta={{ title: "My Potions" }} /> */}
-        <h2 className="mb-8 font-primary text-5xl  leading-loose tracking-wider">
-          My Potions
+        <h2 className="mb-4 font-headingAlt text-4xl font-semibold ">
+          Here are my potions
         </h2>
+        <p className="prose prose-lg text-gray-200">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+          reprehenderit iste enim debitis, explicabo maiores. Accusantium ea
+          dicta corrupti exercitationem voluptas ipsum? Iste, dolore? Repellat
+          quo libero cumque exercitationem odio?
+        </p>
       </div>
     </PageLayout>
   );

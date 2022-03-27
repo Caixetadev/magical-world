@@ -1,6 +1,6 @@
 // ABOUT
 
-import PageLayout from "@components/layouts/PageLayout";
+import PageLayout from "@components/layout/PageLayout";
 
 export default function MagicalStudies() {
   return (

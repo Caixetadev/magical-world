@@ -6,13 +6,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body: ["Quattrocento", "serif"],
-        heading: ["Quattrocento Sans", "sans-serif"],
         primary: ["Magic_Spell", "cursive"],
+        body: ["Quattrocento", "serif"],
         headingAlt: ["MedievalSharp", "cursive"],
-        accent: ["Allura", "cursive"],
+        sansOne: ["Inter", "sans-serif"],
+        sansTwo: ["Sora", "sans-serif"],
       },
-      color: {
+      colors: {
         primary: "#583527",
       },
     },

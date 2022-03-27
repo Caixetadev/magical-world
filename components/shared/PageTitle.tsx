@@ -19,7 +19,7 @@ export default function PageTitle({
         {title}
       </h1>
       {subtitle && (
-        <p className="content-sizes prose text-gray-200">{subtitle}</p>
+        <p className="content-sizes prose text-green-100">{subtitle}</p>
       )}
       {icons && <SocialIcons />}
     </div>
