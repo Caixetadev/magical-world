@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
       "@components/*": ["components/*"],
+      "@interfaces/*": ["interfaces/*"],
       "@styles/*": ["styles/*"],
       "@utils/*": ["utils/*"]
     },
-    "target": "es6",
+    "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,

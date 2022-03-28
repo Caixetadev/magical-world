@@ -1,8 +1,5 @@
-// import { PageLayout } from "@components";
-// import { PageTitle } from "@components/shared";
-import { PageLayout, PageTitle } from "components";
 import type { NextPage, GetStaticProps } from "next";
-// import { PageLayout, PageTitle } from "../components";
+import { PageLayout, PageTitle, Section } from "components";
 
 // import { PageTitle } from "@components/shared";
 // import { PageLayout } from "@components/";
@@ -35,15 +32,17 @@ const Home: NextPage = () => {
       <PageLayout pageMeta={{ title: "Potions Room" }}>
         <PageTitle title={title} subtitle={subtitle} />
 
-        <h2 className="mb-4 font-headingAlt text-4xl font-semibold">
-          My Potions Room
-        </h2>
-        <p className="prose prose-lg text-gray-200">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-          incidunt fuga voluptatibus blanditiis tenetur autem sequi ad, vel
-          suscipit eveniet, dolorum impedit, omnis qui id? Excepturi quisquam
-          laudantium dolores illum.
-        </p>
+        <Section linebreak>
+          <h2 className="mb-4 font-headingAlt text-2xl font-semibold text-gray-100 md:text-4xl">
+            My Potions Room
+          </h2>
+          <p className="prose text-green-100 md:prose-base ">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            incidunt fuga voluptatibus blanditiis tenetur autem sequi ad, vel
+            suscipit eveniet, dolorum impedit, omnis qui id? Excepturi quisquam
+            laudantium dolores illum.
+          </p>
+        </Section>
       </PageLayout>
     </>
   );

@@ -1,6 +1,6 @@
 // BLOG
 
-import { PageLayout, PageTitle } from "components/";
+import { PageLayout, PageTitle, Section } from "components/";
 
 const title = "Parchment";
 const subtitle =
@@ -10,9 +10,17 @@ export default function parchment() {
   return (
     <PageLayout pageMeta={{ title: "Parchment" }}>
       <PageTitle title={title} subtitle={subtitle} />
-      <div>
-        <h3>With my quill and my parchment</h3>
-      </div>
+      <Section>
+        <h2 className="mb-4 font-headingAlt text-2xl font-semibold text-gray-100 md:text-4xl ">
+          My quill has been busy
+        </h2>
+        <p className="prose  text-green-100 md:prose-base">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+          reprehenderit iste enim debitis, explicabo maiores. Accusantium ea
+          dicta corrupti exercitationem voluptas ipsum? Iste, dolore? Repellat
+          quo libero cumque exercitationem odio?
+        </p>
+      </Section>
     </PageLayout>
   );
 }

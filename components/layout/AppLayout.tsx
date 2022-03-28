@@ -1,8 +1,12 @@
 import Header from "@components/shared/Header";
-import React from "react";
+import React, { ReactNode } from "react";
 import { Fragment } from "react";
 
-export default function AppLayout({ children }: any) {
+interface IProps {
+  children: ReactNode;
+}
+
+export default function AppLayout({ children }: IProps) {
   return (
     <>
       <Header />

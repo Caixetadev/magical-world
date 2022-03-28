@@ -23,6 +23,6 @@
 
 @layer components {
   .content-sizes {
-    @apply prose-base md:prose-lg lg:prose-xl;
+    @apply prose-base md:prose-lg;
   }
 }

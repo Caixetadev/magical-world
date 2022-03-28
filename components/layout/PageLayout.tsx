@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 import { ReactNode } from "react";
 import Meta from "@components/shared/Meta";
 
-export interface PageMeta {
+interface PageMeta {
   title: string;
   description?: string;
 }
-type Props = {
+interface Props {
   children: ReactNode;
   pageMeta: PageMeta;
-};
+}
 
 const variants = {
   hidden: { opacity: 0, x: -200, y: 0 },

@@ -3,13 +3,18 @@ import { useRouter } from "next/router";
 import { isActiveLink } from "utils/activeLink";
 
 import { AiFillHome, AiOutlineHome } from "react-icons/ai";
-import { GiCauldron, GiOwl } from "react-icons/gi";
+import {
+  GiCauldron,
+  GiOwl,
+  GiScrollQuill,
+  GiScrollUnfurled,
+} from "react-icons/gi";
 import { IoColorWand } from "react-icons/io5";
 import { FaDev, FaScroll } from "react-icons/fa";
 
 const links = [
   {
-    Icon: AiOutlineHome,
+    Icon: AiFillHome,
     name: "Manor",
     href: "/",
   },
@@ -19,7 +24,7 @@ const links = [
     href: "/potions",
   },
   {
-    Icon: FaScroll,
+    Icon: GiScrollUnfurled,
     name: "Parchment",
     href: "/parchment",
   },
