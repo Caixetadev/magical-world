@@ -43,12 +43,15 @@ const links = [
 const Navigation = () => {
   const router = useRouter();
 
+  const navItemStyle =
+    "flex items-center gap-1  px-5 py-4 transition duration-500 ease-in-out hover:bg-green-800";
+
   return (
-    <nav className="flex items-center justify-center text-sm sm:text-base ">
+    <nav className="mx-auto flex max-w-2xl items-center justify-center  text-sm">
       {links.map(({ Icon, name, href }) => (
-        <Link href={href} key={name} passHref>
+        <Link href={href} key={name} passHref scroll={false}>
           <a
-            className={`flex items-center gap-1 p-5 transition duration-500 ease-in-out hover:font-semibold hover:italic ${
+            className={` ${navItemStyle} ${
               isActiveLink(href, router.pathname) && `bg-green-900`
             }`}
           >
