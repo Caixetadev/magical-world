@@ -10,3 +10,13 @@ export interface IParchment {
   slug: string;
   excerpt: string;
 }
+
+export interface IProject {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  tags: string[];
+  source: string;
+  visit: string;
+}

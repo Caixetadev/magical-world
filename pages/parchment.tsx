@@ -9,9 +9,9 @@ const subtitle =
 export default function parchment() {
   return (
     <PageLayout pageMeta={{ title: "Parchment" }}>
-      <PageTitle title={title} subtitle={subtitle} />
+      <PageTitle title={title} subtitle={subtitle} icons={false} />
       <Section>
-        <h2 className="mb-4 font-headingAlt text-2xl font-semibold text-gray-100 md:text-4xl ">
+        <h2 className="mb-4 font-headingAlt text-2xl font-semibold text-gray-100 md:text-3xl ">
           My quill has been busy
         </h2>
         <p className="prose  text-green-100 md:prose-base">

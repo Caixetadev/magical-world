@@ -17,7 +17,7 @@ const links = [
 ];
 export default function SocialIcons() {
   return (
-    <div className="my-6 flex flex-row text-2xl ">
+    <div className="my-6 flex flex-row text-xl ">
       {links.map(({ Icon, href }, i) => (
         <Link key={href} href={href}>
           <a

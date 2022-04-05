@@ -1,11 +1,7 @@
-import React from "react";
+import React from 'react'
 
-function Love() {
+export const Love =()=> {
   return (
-    <div>
-      <h1>Love Potions</h1>
-    </div>
-  );
+    <div>love</div>
+  )
 }
-
-export default Love;

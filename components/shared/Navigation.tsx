@@ -28,16 +28,16 @@ const links = [
     name: "Parchment",
     href: "/parchment",
   },
-  {
-    Icon: IoColorWand,
-    name: "Spells",
-    href: "/spells",
-  },
-  {
-    Icon: GiOwl,
-    name: "Owl",
-    href: "/owl",
-  },
+  // {
+  //   Icon: IoColorWand,
+  //   name: "Spells",
+  //   href: "/spells",
+  // },
+  // {
+  //   Icon: GiOwl,
+  //   name: "Owl",
+  //   href: "/owl",
+  // },
 ];
 
 const Navigation = () => {

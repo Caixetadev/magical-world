@@ -6,6 +6,7 @@ interface PageMeta {
   title: string;
   description?: string;
 }
+
 interface Props {
   children: ReactNode;
   pageMeta: PageMeta;
@@ -22,15 +23,16 @@ export default function PageLayout({ children, pageMeta }: Props) {
     <>
       <Meta pageMeta={pageMeta} />
 
-      <motion.main
+      <motion.div
         initial="hidden"
         animate="enter"
         exit="exit"
         variants={variants}
         transition={{ type: "linear" }}
+        className="mx-auto max-w-2xl "
       >
         {children}
-      </motion.main>
+      </motion.div>
     </>
   );
 }
