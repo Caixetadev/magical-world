@@ -1,4 +1,5 @@
 import Header from "@components/shared/Header";
+import Footer from "@components/shared/Footer";
 import React, { ReactNode } from "react";
 import { Fragment } from "react";
 
@@ -18,6 +19,7 @@ export default function AppLayout({ children }: IProps) {
         {children}
         {/* sm:px-12 sm:py-16 */}
       </main>
+      <Footer />
     </>
   );
 }

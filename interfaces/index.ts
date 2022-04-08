@@ -9,6 +9,8 @@ export interface IParchment {
   title: string;
   slug: string;
   excerpt: string;
+  image: string;
+  body: string;
 }
 
 export interface IProject {
@@ -19,4 +21,9 @@ export interface IProject {
   tags: string[];
   source: string;
   visit: string;
+}
+
+export interface ITimeline {
+  year: number;
+  text: string;
 }

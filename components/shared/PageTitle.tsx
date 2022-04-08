@@ -23,7 +23,7 @@ export default function PageTitle({
       {subtitle && (
         <p className="prose  text-green-100 md:prose-lg">{subtitle}</p>
       )}
-      {icons && <SocialIcons />}
+      {icons && <SocialIcons margin />}
     </section>
   );
 }

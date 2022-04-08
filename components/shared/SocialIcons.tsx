@@ -1,7 +1,9 @@
 import Link from "next/link";
-import { FaDev, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaDev, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { SiHashnode } from "react-icons/si";
 
 const links = [
+  { Icon: SiHashnode, href: "https://hashnode.com/@Psypher1" },
   {
     Icon: FaDev,
     href: "https://dev.to/psypher1",
@@ -11,13 +13,25 @@ const links = [
     href: "https://github.com/psypher1",
   },
   {
+    Icon: FaTwitter,
+    href: "https://twitter.com/Psypher1",
+  },
+  {
     Icon: FaLinkedinIn,
     href: "https://www.linkedin.com/in/jamesmidzi",
   },
 ];
-export default function SocialIcons() {
+
+interface IProps {
+  margin?: boolean;
+}
+export default function SocialIcons({ margin = false }: IProps) {
   return (
-    <div className="my-6 flex flex-row text-xl ">
+    <div
+      className={`${
+        margin ? "my-6" : "my-0"
+      } flex flex-row  text-xl md:text-2xl`}
+    >
       {links.map(({ Icon, href }, i) => (
         <Link key={href} href={href}>
           <a

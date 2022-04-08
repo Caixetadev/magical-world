@@ -1,6 +1,15 @@
-import { IProject } from "../interfaces";
+import { IProject, ITimeline } from "../interfaces";
 
 export const allProjects: IProject[] = [
+  {
+    title: "PRAEY",
+    description: "The personal website for Tapiwanashe",
+    image: "/images/tlh.png",
+    tags: ["Next.js", "Contentful", "TailwindCSS", "ChakraUI"],
+    source: "https://github.com/Psypher1/the-language-hub",
+    visit: "https://tapiwanashe.com/",
+    id: 1,
+  },
   {
     title: "The Language Hub",
     description:
@@ -9,7 +18,7 @@ export const allProjects: IProject[] = [
     tags: ["Next.js", "TailwindCSS", "Markdown"],
     source: "https://github.com/Psypher1/the-language-hub",
     visit: "https://thelanguagehub.netlify.app/",
-    id: 0,
+    id: 2,
   },
   {
     title: "Monoqo Designs",
@@ -19,7 +28,7 @@ export const allProjects: IProject[] = [
     tags: ["HTML5", "SASS", "JavaScript"],
     source: "https://github.com/Psypher1/",
     visit: "https://monoqo.netlify.app/",
-    id: 1,
+    id: 3,
   },
   {
     title: "Comexposed Events",
@@ -29,7 +38,7 @@ export const allProjects: IProject[] = [
     tags: ["Nextjs", "MongoDB", "TailwindCSS"],
     source: "https://github.com/Psypher1/comexposed-events",
     visit: "https://comexposed-events.vercel.app/",
-    id: 2,
+    id: 4,
   },
   {
     title: "Chouette Hosting",
@@ -39,7 +48,7 @@ export const allProjects: IProject[] = [
     tags: ["HTML5", "SASS", "Javascript"],
     source: "https://github.com/Psypher1/chouette-website",
     visit: "https://chouettehosting.netlify.app/",
-    id: 3,
+    id: 5,
   },
   {
     title: "Marketing Republik",
@@ -49,7 +58,7 @@ export const allProjects: IProject[] = [
     tags: ["HTML5", "SASS", "JavaScript"],
     source: "https://github.com/Psypher1/marketing-republik",
     visit: "https://marketingrepublik.netlify.app/",
-    id: 4,
+    id: 6,
   },
 
   {
@@ -60,17 +69,18 @@ export const allProjects: IProject[] = [
     tags: ["Python", "Django"],
     source: "https://github.com/Psypher1/django-todo-with-users",
     visit: "https://github.com/Psypher1/",
-    id: 5,
+    id: 7,
   },
 ];
 
-export const TimeLineData = [
+export const TimeLineData: ITimeline[] = [
   { year: 2017, text: "Started my journey" },
   { year: 2018, text: "Instructed a student for exams" },
   { year: 2019, text: "Tutored a class for languages studies" },
   { year: 2019, text: "Shared my projects with the world" },
   { year: 2020, text: "Did freelance work on Upwork" },
   { year: 2021, text: "Started working with TYPO3" },
+  { year: 2022, text: "Participated in first hackathon" },
 ];
 
 export const AchievementsData = [

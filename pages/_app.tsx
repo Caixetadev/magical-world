@@ -6,7 +6,7 @@ import { AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 
 // Layout Import
-import { AppLayout } from "components";
+import AppLayout from "../components/layout/AppLayout";
 
 // SEO Imports
 import { DefaultSeo } from "next-seo";

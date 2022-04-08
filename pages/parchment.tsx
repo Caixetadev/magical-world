@@ -1,6 +1,9 @@
 // BLOG
 
-import { PageLayout, PageTitle, Section } from "components/";
+// import { PageLayout, PageTitle, Section } from "components/";
+import PageLayout from "@components/layout/PageLayout";
+import PageTitle from "@components/shared/PageTitle";
+import Section from "@components/shared/Section";
 
 const title = "Parchment";
 const subtitle =
