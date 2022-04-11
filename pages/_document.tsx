@@ -46,7 +46,10 @@ export default function Document() {
           referrerPolicy="no-referrer"
         /> */}
       </Head>
-      <body className="min-h-screen bg-gradient-to-br from-emerald-900 to-green-900 font-body text-gray-100 antialiased">
+      <body className="min-h-screen text-gray-100 antialiased">
+        {/* <div style={{background-image: url()}}></div> */}
+
+        {/* bg-gradient-to-br from-emerald-900 to-green-900 font-body text-gray-100 */}
         <Main />
         <NextScript />
       </body>
