@@ -6,7 +6,7 @@ interface IPotion {
 }
 const PotionsCard = ({ project }: IPotion) => {
   return (
-    <article className="flex flex-col justify-between rounded-md bg-gray-800 p-4 text-gray-300 shadow-xl">
+    <article className="flex flex-col justify-between rounded-md bg-gray-900 p-4 text-gray-300 shadow-xl">
       <h3 className="text-lg font-semibold text-gray-100">{project.title}</h3>
       <p className="prose prose-sm   text-gray-400">{project.description}</p>
       <div className="mt-4 ">
