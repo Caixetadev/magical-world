@@ -13,11 +13,15 @@ export default function PageTitle({
   subtitle = "",
   center = false,
   image = "",
-  icons = true,
+  icons = false,
 }: IProps) {
   return (
     <section>
-      <h1 className="mb-2 font-primary text-3xl leading-loose tracking-wide sm:text-4xl md:mb-4 md:text-5xl lg:mb-6">
+      <h1
+        className={`mb-2 font-primary text-3xl leading-loose tracking-wide sm:text-4xl md:mb-4 md:text-5xl lg:mb-6 ${
+          center && "md:text-center"
+        } `}
+      >
         {title}
       </h1>
       {subtitle && (

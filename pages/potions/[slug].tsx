@@ -9,7 +9,7 @@ const subtitle =
 const PotionDetails = () => {
   return (
     <PageLayout pageMeta={{ title: "Potion Details" }}>
-      <PageTitle title={title} subtitle={subtitle} icons={false} />
+      <PageTitle title={title} center icons={false} />
     </PageLayout>
   );
 };

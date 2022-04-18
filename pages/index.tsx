@@ -42,7 +42,7 @@ const Home: NextPage<IProps> = ({ timeline }) => {
       /> */}
 
       <PageLayout pageMeta={{ title: "Potions Room" }}>
-        <PageTitle title={title} subtitle={subtitle} />
+        <PageTitle title={title} subtitle={subtitle} icons />
 
         <Section linebreak>
           <h2 className="mb-5 font-headingAlt text-2xl font-semibold text-gray-100 md:text-3xl">
