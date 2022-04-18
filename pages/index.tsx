@@ -50,7 +50,7 @@ const Home: NextPage<IProps> = ({ timeline }) => {
           </h2>
           <div className=" grid grid-cols-1 gap-6 md:grid-cols-2">
             {timeline.map((event) => (
-              <div className="flex flex-col justify-between rounded-md bg-gray-800 p-4 text-gray-300 shadow-xl">
+              <div className="flex flex-col justify-between rounded-md bg-neutral-900 p-4 text-gray-300 shadow-xl">
                 <h3 className="text-base">{event.text}</h3>
                 <p>{event.year}</p>
               </div>

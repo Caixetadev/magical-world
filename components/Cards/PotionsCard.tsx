@@ -7,7 +7,7 @@ interface IPotion {
 }
 const PotionsCard = ({ project }: IPotion) => {
   return (
-    <article className="flex flex-col justify-between rounded-md bg-gray-900 p-4 text-gray-300 shadow-xl">
+    <article className="flex flex-col justify-between rounded-md bg-neutral-900 p-4 text-gray-300 shadow-xl">
       <Link href={project.visit}>
         <a
           className="cursor-pointer text-lg font-semibold text-gray-100 transition duration-300 hover:scale-105"
@@ -28,22 +28,22 @@ const PotionsCard = ({ project }: IPotion) => {
         </div>
       </div>
       <div className="mt-4 flex items-center justify-between text-gray-300">
-        <a
-          href={project.visit}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="ease flex items-center transition duration-300 hover:scale-105 hover:text-white"
-        >
-          <GiWarlockEye className="mr-1" />
-          Portkey
-        </a>
-        <a
-          href={`/potions/${project.id}`}
-          className="ease flex items-center transition duration-300 hover:scale-105 hover:text-white"
-        >
-          <GiCauldron className="mr-1" />
-          Learn to brew
-        </a>
+        <Link href={project.visit}>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ease flex items-center transition duration-300 hover:scale-105 hover:text-white"
+          >
+            <GiWarlockEye className="mr-1" />
+            Portkey
+          </a>
+        </Link>
+        <Link href={`/potions/${project.id}`}>
+          <a className="ease flex items-center transition duration-300 hover:scale-105 hover:text-white">
+            <GiCauldron className="mr-1" />
+            Learn to brew
+          </a>
+        </Link>
       </div>
     </article>
   );
