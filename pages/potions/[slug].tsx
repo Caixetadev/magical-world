@@ -4,7 +4,7 @@ import React from "react";
 
 const title = "Potion Details";
 const subtitle =
-  "To be great potion master, one has to brew a lot of potions. Here are some of the potions I have concocted.";
+  "To be great potion master, one has to brew a lot of potions. Here are some of the potions that have been in my cauldrons.";
 
 const PotionDetails = () => {
   return (
