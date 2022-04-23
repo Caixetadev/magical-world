@@ -4,7 +4,7 @@ const endpoint = `https://api.hashnode.com/`;
 
 const graphQLClient = new GraphQLClient(endpoint, {
   headers: {
-    authorization: "Bearer 7a6e6363-9657-4eae-99e7-1e5718ad088c",
+    authorization: `Bearer ${process.env.HASHNODE_KEY}`,
   },
 });
 

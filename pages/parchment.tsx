@@ -35,7 +35,7 @@ export default function parchment({ posts }: IPosts) {
         {/* <h2 className="mb-4 font-headingAlt text-2xl font-semibold text-gray-100 md:text-3xl ">
           My quill has been busy
         </h2> */}
-        <div className=" grid grid-cols-1 gap-6 md:grid-cols-2">
+        <div className=" grid grid-cols-1 gap-8 ">
           {posts.map((post: IPost) => (
             <Link href={post.slug} passHref>
               <a
@@ -45,12 +45,12 @@ export default function parchment({ posts }: IPosts) {
                 <h3 className="cursor-pointer text-lg font-semibold text-gray-100 transition duration-300 hover:text-gray-400">
                   {post.title}
                 </h3>
-                <p className=" text-elipsis prose prose-sm mt-2 text-gray-400">
+                <p className=" prose  mt-2 truncate text-gray-400">
                   {post.brief}
                 </p>
 
-                <div className="mt-4 first-letter:flex">
-                  <p className="text-green-100a inline-block rounded bg-green-900 px-3 py-1">
+                <div className="mt-4 flex">
+                  <p className="text-green-100a inline-block rounded bg-green-900 px-2 py-1">
                     {new Date(post.dateAdded).toLocaleDateString("en-UK")}
                   </p>
                 </div>
