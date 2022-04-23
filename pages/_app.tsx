@@ -14,6 +14,8 @@ import SEO from "../next-seo.config";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
+  // this is a bad solution
+  const AnyComponent = Component as any;
   return (
     <>
       <DefaultSeo {...SEO} />
@@ -23,9 +25,8 @@ function MyApp({ Component, pageProps }: AppProps) {
           initial={false}
           onExitComplete={() => window.scrollTo(0, 0)}
         >
-          {/* <PageLayout> */}
+          {/* <AnyComponent {...pageProps} key={router.route} /> */}
           <Component {...pageProps} key={router.route} />
-          {/* </PageLayout> */}
         </AnimatePresence>
       </AppLayout>
     </>

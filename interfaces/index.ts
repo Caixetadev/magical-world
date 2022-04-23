@@ -23,6 +23,13 @@ export interface IProject {
   visit: string;
 }
 
+export interface IPost {
+  title: string;
+  coverImage: string;
+  slug: string;
+  brief: string;
+  dateAdded: string;
+}
 export interface ITimeline {
   year: number;
   text: string;
