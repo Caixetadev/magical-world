@@ -1,7 +1,7 @@
 import type { NextPage, GetStaticProps } from "next";
 // import { PageLayout, PageTitle, Section } from "components";
 
-import { GiFireplace, GiWarlockEye } from "react-icons/gi";
+import { GiFireplace, GiCauldron, GiWarlockEye } from "react-icons/gi";
 
 import PageLayout from "@components/layout/PageLayout";
 import PageTitle from "@components/shared/PageTitle";
@@ -63,13 +63,15 @@ const Home: NextPage<IProps> = ({ timeline }) => {
           <h2 className="mb-4 font-headingAlt text-2xl font-semibold text-gray-100 md:text-3xl">
             Marauder's Map
           </h2>
-          <p className="flex items-center text-xl">
-            <GiWarlockEye className="mr-1" /> - Portkeys take you away from this
-            manor
+          <p className="flex items-center text-lg md:text-xl">
+            <GiWarlockEye className="mr-1" /> - Take you away from this manor
           </p>
-          <p className="flex items-center text-xl">
-            <GiFireplace className="mr-1" /> - Floo Powder takes you to another
-            area of this manor
+          <p className="flex items-center text-lg md:text-xl">
+            <GiCauldron className="mr-1" /> - Take you to details about a potion
+          </p>
+          <p className=" flex items-center text-lg md:text-xl">
+            <GiFireplace className="mr-1" /> - Take you to another area of this
+            manor
           </p>
         </Section>
       </PageLayout>

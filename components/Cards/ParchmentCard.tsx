@@ -17,7 +17,7 @@ const ParchmentCard = ({ post }: IArticle) => {
         </h3>
         <p className="prose mt-2 text-gray-400 line-clamp-2">{post.brief}</p>
 
-        <div className="mt-4 flex">
+        <div className="mt-4 flex items-center justify-between">
           <p className="inline-block rounded bg-green-900 px-2 py-1 text-sm text-green-100">
             {new Date(post.dateAdded).toLocaleDateString("en-US", {
               year: "numeric",
@@ -25,6 +25,7 @@ const ParchmentCard = ({ post }: IArticle) => {
               day: "numeric",
             })}
           </p>
+          <GiFireplace className="text-xl" />
         </div>
       </a>
     </Link>
