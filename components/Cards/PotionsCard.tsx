@@ -1,5 +1,6 @@
 import { IProject } from "interfaces/";
 import { GiCauldron, GiWarlockEye } from "react-icons/gi";
+
 import Link from "next/link";
 
 interface IPotion {
@@ -10,7 +11,7 @@ const PotionsCard = ({ project }: IPotion) => {
     <article className="flex flex-col justify-between rounded-md bg-neutral-900 p-4 text-gray-300 shadow-xl">
       <Link href={project.visit}>
         <a
-          className="cursor-pointer text-lg font-semibold text-gray-100 transition duration-300 hover:scale-105"
+          className="cursor-pointer text-lg font-semibold text-neutral-100 transition duration-300 hover:text-neutral-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -18,7 +19,9 @@ const PotionsCard = ({ project }: IPotion) => {
         </a>
       </Link>
 
-      <p className="prose prose-sm text-gray-400">{project.description}</p>
+      <p className="prose prose-sm text-gray-400 line-clamp-2">
+        {project.description}
+      </p>
       <div className="mt-4 ">
         <h4 className="">Brewed with: </h4>
         <div className="mt-1 flex flex-wrap items-center gap-2">

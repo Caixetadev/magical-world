@@ -1,6 +1,5 @@
 import PageTitle from "@components/shared/PageTitle";
 import PageLayout from "@components/layout/PageLayout";
-import React from "react";
 
 const title = "Potion Details";
 const subtitle =

@@ -5,7 +5,7 @@ export const allProjects: IProject[] = [
     title: "PRAEY",
     description: "The personal website for Tapiwanashe",
     image: "/images/tlh.png",
-    tags: ["Next.js", "Contentful", "TailwindCSS", "ChakraUI"],
+    tags: ["Next.js", "Contentful", "TailwindCSS"],
     source: "https://github.com/Psypher1/the-language-hub",
     visit: "https://tapiwanashe.com/",
     id: 1,

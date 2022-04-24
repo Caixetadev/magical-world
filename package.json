@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/line-clamp": "^0.3.1",
     "framer-motion": "^4.1.17",
     "graphql": "^16.3.0",
     "graphql-request": "^4.2.0",
