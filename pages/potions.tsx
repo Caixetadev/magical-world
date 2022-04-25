@@ -31,9 +31,9 @@ const Potions = ({ projects }: IProps) => {
       <PageTitle title={title} subtitle={subtitle} icons={false} />
 
       <Section>
-        {/* <h2 className="mb-2 font-headingAlt text-2xl font-semibold text-gray-100 md:text-3xl ">
-          Here are my potions
-        </h2> */}
+        <h2 className="mb-4 font-headingAlt text-2xl font-semibold text-gray-100 md:text-3xl ">
+          Recent Potions
+        </h2>
         <div className=" grid grid-cols-1 gap-6 md:grid-cols-2">
           {projects.map((project: IProject) => (
             <PotionsCard project={project} key={project.id} />

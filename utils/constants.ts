@@ -3,7 +3,8 @@ import { IProject, ITimeline } from "../interfaces";
 export const allProjects: IProject[] = [
   {
     title: "PRAEY",
-    description: "The personal website for Tapiwanashe",
+    description:
+      "The personal website for Tapiwanashe - a writer and film maker. Made to better reflect her.",
     image: "/images/tlh.png",
     tags: ["Next.js", "Contentful", "TailwindCSS"],
     source: "https://github.com/Psypher1/the-language-hub",

@@ -19,6 +19,7 @@ export async function getPosts() {
             brief
             slug
             dateAdded
+             contentMarkdown
           }
         }
       }

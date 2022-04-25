@@ -8,10 +8,10 @@ interface IPotion {
 }
 const PotionsCard = ({ project }: IPotion) => {
   return (
-    <article className="flex flex-col justify-between rounded-md bg-neutral-900 p-4 text-gray-300 shadow-xl">
+    <article className="flex flex-col justify-between rounded-md bg-neutral-900 p-4 text-neutral-300 shadow-xl">
       <Link href={project.visit}>
         <a
-          className="cursor-pointer text-lg font-semibold text-neutral-100 transition duration-300 hover:text-neutral-400"
+          className="cursor-pointer text-xl font-semibold text-neutral-200 transition duration-300 hover:text-white"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -44,7 +44,7 @@ const PotionsCard = ({ project }: IPotion) => {
         <Link href={`/potions/${project.id}`}>
           <a className="ease flex items-center transition duration-300 hover:scale-105 hover:text-white">
             <GiCauldron className="mr-1" />
-            Learn to brew
+            Process
           </a>
         </Link>
       </div>
