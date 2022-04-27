@@ -7,7 +7,7 @@ interface IArticle {
 }
 const ParchmentCard = ({ post }: IArticle) => {
   return (
-    <Link href={post.title}>
+    <Link href={`/parchment/${post.slug}`}>
       <a
         key={post.title}
         className="flex flex-col justify-between rounded-md bg-neutral-900 p-4 text-gray-300 shadow-xl"
