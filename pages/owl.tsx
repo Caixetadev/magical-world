@@ -38,6 +38,7 @@ export default function spells() {
               className="w-3/4 px-4 py-2 "
             />
           </div>
+          <div></div>
         </form>
       </Section>
     </PageLayout>
