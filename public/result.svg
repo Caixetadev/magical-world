@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+<text transform="translate(13.411 67.39)" font-family="MyriadPro-Regular, Myriad Pro" font-size="9"><tspan letter-spacing=".00401em"/><tspan x="6.02979" y="0"/><tspan x="10.53857" y="0" letter-spacing="-.00401em"/><tspan x="14.84033" y="0"/><tspan x="-0.14404" y="10.7998"/><tspan x="14.31006" y="10.7998" letter-spacing="-.007em"/><tspan x="19.18799" y="10.7998" letter-spacing="-.00597em"/><tspan x="25.7583" y="10.7998"/></text>
+<g data-name="Layer 1">
+<path d="m29 24.551a17.368 17.368 0 0 0-8.4567 2.7471l8.4567-14.58zm0 2v30.899a15.48 15.48 0 0 1 0-30.899zm2 0a15.48 15.48 0 0 1 0 30.899zm0-2v-11.833l8.4567 14.58a17.368 17.368 0 0 0-8.4567-2.7471zm-18.454 16.535c-0.01587 0.30481-0.04633 0.60577-0.04633 0.91449a17.516 17.516 0 0 0 10.441 16h-20.205zm24.513 16.914a17.516 17.516 0 0 0 10.441-16c0-0.30872-0.03046-0.60968-0.04633-0.91449l8.9395 15.413a1 1 0 0 1-0.86502 1.5017z"/>
+</g>
+</svg>

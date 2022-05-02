@@ -1,7 +1,6 @@
-import Header from "@components/shared/Header";
-import Footer from "@components/shared/Footer";
+import Header from "@components/layout/Header";
+import Footer from "@components/layout/Footer";
 import React, { ReactNode } from "react";
-import { Fragment } from "react";
 
 interface IProps {
   children: ReactNode;
@@ -15,7 +14,7 @@ export default function AppLayout({ children }: IProps) {
   return (
     <>
       <Header />
-      <main className="mx-auto min-h-screen max-w-2xl py-10  px-8 sm:py-12">
+      <main className="mx-auto min-h-screen max-w-2xl py-10 px-8 sm:py-12">
         {children}
         {/* sm:px-12 sm:py-16 */}
       </main>

@@ -44,6 +44,11 @@ const Home: NextPage<IProps> = ({ timeline, testimonial }) => {
       <PageLayout pageMeta={{ title: "Potions Room" }}>
         <PageTitle title={title} subtitle={subtitle} icons />
 
+        {/* <img src="/assets/hallows.svg" /> */}
+        <div className="bg-white p-5">
+          <img src="/result.svg" width="30px" height="30px" />
+        </div>
+
         <Section linebreak>
           <h2 className="mb-5 font-headingAlt text-2xl font-semibold text-gray-100 md:text-3xl">
             Take a trip through my pensieve

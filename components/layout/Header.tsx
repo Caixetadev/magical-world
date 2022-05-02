@@ -1,4 +1,4 @@
-import Navigation from "./Navigation";
+import Navigation from "../shared/Navigation";
 
 export default function Header() {
   return (
