@@ -19,7 +19,7 @@ export default function PageTitle({
   return (
     <section>
       <h1
-        className={`mb-2 font-primary text-3xl leading-loose tracking-wide sm:text-4xl md:mb-4 md:text-5xl lg:mb-6 ${
+        className={`mb-2 font-primary text-4xl leading-loose tracking-wide sm:text-4xl md:mb-4 md:text-5xl lg:mb-6 ${
           center && "md:text-center"
         } `}
       >

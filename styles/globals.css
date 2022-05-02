@@ -21,11 +21,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
+body {
   background-image: url("/assets/images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-} */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 @layer components {
   .content-sizes {

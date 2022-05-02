@@ -4,6 +4,9 @@ export interface IPotion {
   excerpt: string;
   ingredients: string[];
 }
+export interface PotionProps {
+  potions: IPotion[];
+}
 
 export interface IParchment {
   title: string;
@@ -11,6 +14,15 @@ export interface IParchment {
   excerpt: string;
   image: string;
   body: string;
+}
+
+export interface ParchmentProps {
+  parchments: IParchment[];
+}
+
+export interface ITestimonial {
+  name: string;
+  message: string;
 }
 
 export interface IProject {
@@ -22,7 +34,9 @@ export interface IProject {
   source: string;
   visit: string;
 }
-
+export interface ProjectProps {
+  projects: IProject[];
+}
 export interface IPost {
   title: string;
   coverImage: string;

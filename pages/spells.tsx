@@ -9,7 +9,7 @@ const subtitle = "No magician is complete without spells";
 
 export default function MagicalStudies() {
   return (
-    <PageLayout pageMeta={{ title: "Spells" }}>
+    <PageLayout pageMeta={{ title: "Spells and Journey" }}>
       <PageTitle title={title} subtitle={subtitle} />
 
       <Section>

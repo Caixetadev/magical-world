@@ -1,4 +1,4 @@
-import { IProject, ITimeline } from "../interfaces";
+import { IProject, ITimeline, ITestimonial } from "../interfaces";
 
 export const allProjects: IProject[] = [
   {
@@ -72,6 +72,11 @@ export const allProjects: IProject[] = [
     visit: "https://github.com/Psypher1/",
     id: 7,
   },
+];
+
+export const TestimonialData: ITestimonial[] = [
+  { name: "Tapiwa", message: "great work" },
+  { name: "Kuziwa", message: "good job" },
 ];
 
 export const TimeLineData: ITimeline[] = [

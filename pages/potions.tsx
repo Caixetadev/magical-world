@@ -7,12 +7,9 @@ import Section from "@components/shared/Section";
 import PotionsCard from "@components/Cards/PotionsCard";
 
 import { GiCauldron, GiWarlockEye } from "react-icons/gi";
-import { IPotion, IProject } from "../interfaces";
+import { IPotion, IProject, ProjectProps } from "../interfaces";
 import { allProjects } from "../utils/constants";
 
-interface IProps {
-  projects: IProject[];
-}
 export const getStaticProps: GetStaticProps = async () => {
   const projects = await allProjects;
 
@@ -25,9 +22,9 @@ const title = "Potions";
 const subtitle =
   "To be great potion master, one has to brew a lot of potions. Here are some of the potions I have concocted.";
 
-const Potions = ({ projects }: IProps) => {
+const Potions = ({ projects }: ProjectProps) => {
   return (
-    <PageLayout pageMeta={{ title: "My Potions" }}>
+    <PageLayout pageMeta={{ title: title }}>
       <PageTitle title={title} subtitle={subtitle} icons={false} />
 
       <Section>

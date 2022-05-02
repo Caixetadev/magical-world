@@ -8,7 +8,7 @@ interface IPotion {
 }
 const PotionsCard = ({ project }: IPotion) => {
   return (
-    <article className="flex flex-col justify-between rounded-md bg-neutral-900 p-4 text-neutral-300 shadow-xl">
+    <article className="flex flex-col justify-between rounded-md bg-black p-4 text-neutral-300 shadow shadow-gray-500">
       <Link href={project.visit}>
         <a
           className="cursor-pointer text-xl font-semibold text-neutral-200 transition duration-300 hover:text-white"
