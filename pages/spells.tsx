@@ -5,14 +5,14 @@ import PageLayout from "@components/layout/PageLayout";
 import Section from "@components/shared/Section";
 
 const title = "Spells";
-const subtitle = "Magic is not complete without spells";
+const subtitle = "No magician is complete without spells";
 
 export default function MagicalStudies() {
   return (
     <PageLayout pageMeta={{ title: "Spells" }}>
       <PageTitle title={title} subtitle={subtitle} />
 
-      <Section linebreak>
+      <Section>
         <h2 className="mb-2 font-headingAlt text-2xl font-semibold text-gray-100 md:text-3xl">
           Spells I Can Cast
         </h2>

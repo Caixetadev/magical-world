@@ -39,12 +39,6 @@ const Potions = ({ projects }: IProps) => {
             <PotionsCard project={project} key={project.id} />
           ))}
         </div>
-        {/* <p className="prose text-green-100 md:prose-base ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          reprehenderit iste enim debitis, explicabo maiores. Accusantium ea
-          dicta corrupti exercitationem voluptas ipsum? Iste, dolore? Repellat
-          quo libero cumque exercitationem odio?
-        </p> */}
       </Section>
     </PageLayout>
   );

@@ -19,7 +19,7 @@ const ParchmentCard = ({ post }: IArticle) => {
 
         <div className="mt-4 flex items-center justify-between">
           <p className="inline-block rounded bg-green-900 px-2 py-1 text-sm text-green-100">
-            {new Date(post.dateAdded).toLocaleDateString("en-US", {
+            {new Date(post.dateAdded).toLocaleDateString("en-UK", {
               year: "numeric",
               month: "long",
               day: "numeric",
