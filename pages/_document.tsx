@@ -13,7 +13,7 @@ export default function Document() {
         />
         <link
           rel="preload"
-          href="/assets/fonts/Magic_Spell_JF.otf"
+          href="/assets/fonts/Magic_Spell.otf"
           as="font"
           crossOrigin=""
         />

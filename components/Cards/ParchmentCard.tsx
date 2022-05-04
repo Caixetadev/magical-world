@@ -9,7 +9,9 @@ const ParchmentCard = ({ post }: IArticle) => {
   return (
     <Link href={`/parchment/${post.slug}`}>
       <a
-        key={post.title}
+        target="_blank"
+        //rel="noopener noreferrer"
+        //key={post.title}
         className="flex flex-col justify-between rounded-md bg-black p-4 text-gray-300 shadow shadow-gray-500"
       >
         <h3 className="cursor-pointer text-xl font-semibold text-gray-100 transition duration-300 hover:text-green-700">

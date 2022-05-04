@@ -19,7 +19,7 @@ export async function getPosts() {
             brief
             slug
             dateAdded
-             contentMarkdown
+            contentMarkdown
           }
         }
       }
@@ -28,3 +28,5 @@ export async function getPosts() {
 
   return graphQLClient.request(query);
 }
+
+export async function getSinglePost() {}

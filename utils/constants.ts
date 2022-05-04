@@ -1,4 +1,4 @@
-import { IProject, ITimeline, ITestimonial } from "../interfaces";
+import { ISpell, IProject, ITimeline, ITestimonial } from "../interfaces";
 
 export const allProjects: IProject[] = [
   {
@@ -72,6 +72,18 @@ export const allProjects: IProject[] = [
     visit: "https://github.com/Psypher1/",
     id: 7,
   },
+];
+
+export const allSpells: ISpell[] = [
+  { name: "HTML", link: "https://nextjs.org" },
+  { name: "CSS", link: "https://nextjs.org" },
+  { name: "Javascript", link: "https://nextjs.org" },
+  { name: "Python", link: "https://nextjs.org" },
+  { name: "Django", link: "https://nextjs.org" },
+  { name: "Next.js", link: "https://nextjs.org" },
+  { name: "TailwindCSS", link: "https://tailwindcss.com" },
+  { name: "GraphCMS", link: "https://tailwindcss.com" },
+  { name: "Sanity.io", link: "https://sanity.io" },
 ];
 
 export const TestimonialData: ITestimonial[] = [

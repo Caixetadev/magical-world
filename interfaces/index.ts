@@ -15,9 +15,18 @@ export interface IParchment {
   image: string;
   body: string;
 }
-
 export interface ParchmentProps {
   parchments: IParchment[];
+}
+
+export interface ISpell {
+  name: string;
+  link?: string;
+  image?: string;
+}
+
+export interface SpellProps {
+  spells: ISpell[];
 }
 
 export interface ITestimonial {
@@ -43,6 +52,7 @@ export interface IPost {
   slug: string;
   brief: string;
   dateAdded: string;
+  contentMarkdown: string;
 }
 export interface ITimeline {
   year: number;

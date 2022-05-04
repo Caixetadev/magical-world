@@ -45,17 +45,20 @@ const Home: NextPage<IProps> = ({ timeline, testimonial }) => {
         <PageTitle title={title} subtitle={subtitle} icons />
 
         {/* <img src="/assets/hallows.svg" /> */}
-        <div className="bg-white p-5">
+        {/* <div className="bg-white p-5">
           <img src="/result.svg" width="30px" height="30px" />
-        </div>
+        </div> */}
 
         <Section linebreak>
           <h2 className="mb-5 font-headingAlt text-2xl font-semibold text-gray-100 md:text-3xl">
             Take a trip through my pensieve
           </h2>
           <div className=" grid grid-cols-1 gap-6 md:grid-cols-2">
-            {timeline.reverse().map((event) => (
-              <div className="flex flex-col justify-between rounded-md bg-black p-4 text-gray-300 shadow shadow-gray-500">
+            {timeline.reverse().map((event, index) => (
+              <div
+                key={index}
+                className="flex flex-col justify-between rounded-md bg-black p-4 text-gray-300 shadow shadow-gray-500"
+              >
                 <h3 className="text-base">{event.text}</h3>
                 <p>{event.year}</p>
               </div>
@@ -67,8 +70,11 @@ const Home: NextPage<IProps> = ({ timeline, testimonial }) => {
             People I've Worked With
           </h2>
           <div className=" grid grid-cols-1 gap-6 md:grid-cols-2">
-            {testimonial.map((client) => (
-              <div className="flex flex-col justify-between rounded-md bg-black p-4 text-gray-300 shadow-xl">
+            {testimonial.map((client, index) => (
+              <div
+                key={index}
+                className="flex flex-col justify-between rounded-md bg-black p-4 text-gray-300 shadow-xl"
+              >
                 <h3 className="text-base">{client.name}</h3>
                 <p>{client.message}</p>
               </div>

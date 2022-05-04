@@ -11,11 +11,11 @@ export default function spells() {
   return (
     <PageLayout pageMeta={{ title: "Send An Owl" }}>
       <PageTitle title={title} subtitle={subtitle} />
-      <Section>
-        <h2 className="mb-2 font-headingAlt text-2xl font-semibold text-gray-100 md:text-3xl">
-          Pick an owl
-        </h2>
-        <form className="flex flex-col gap-4">
+      <Section linebreak>
+        {/* <h2 className="mb-4 text-center font-headingAlt text-2xl font-semibold text-gray-100 md:text-3xl">
+          Send me an owl
+        </h2> */}
+        <form className="mx-auto flex w-3/4 flex-col gap-4 ">
           <div>
             <label htmlFor="name">Name</label>
             <input
@@ -24,7 +24,7 @@ export default function spells() {
               name="name"
               placeholder="Name"
               id="name"
-              className="w-3/4 px-4 py-2 "
+              className="w-full px-4 py-2 text-black"
             />
           </div>
           <div>
@@ -35,10 +35,24 @@ export default function spells() {
               name="email"
               placeholder="Email"
               id="email"
-              className="w-3/4 px-4 py-2 "
+              className="w-full px-4 py-2 text-black "
             />
           </div>
-          <div></div>
+          <div>
+            <label htmlFor="message">Message</label>
+            <textarea
+              required
+              rows="4"
+              name="message"
+              placeholder="Message"
+              id="message"
+              className="w-full px-4 py-2 text-black focus:ring-2 focus:ring-green-600"
+            ></textarea>
+          </div>
+
+          <button className="bg-green-900 py-2 px-4 text-green-100 transition duration-300 hover:bg-green-800">
+            Send
+          </button>
         </form>
       </Section>
     </PageLayout>

@@ -6,7 +6,6 @@ import PageTitle from "@components/shared/PageTitle";
 import Section from "@components/shared/Section";
 import PotionsCard from "@components/Cards/PotionsCard";
 
-import { GiCauldron, GiWarlockEye } from "react-icons/gi";
 import { IPotion, IProject, ProjectProps } from "../interfaces";
 import { allProjects } from "../utils/constants";
 

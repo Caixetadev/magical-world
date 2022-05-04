@@ -10,7 +10,7 @@ import { GiWarlockEye } from "react-icons/gi";
 import { SiHashnode } from "react-icons/si";
 import { FaDev } from "react-icons/fa";
 
-import { getPosts } from "../lib/_hashnode";
+import { getPosts } from "@lib/_hashnode";
 import { GetStaticProps } from "next";
 import { IPost } from "../interfaces";
 import Link from "next/link";
@@ -22,6 +22,7 @@ interface IPosts {
 export const getStaticProps: GetStaticProps = async () => {
   const data = await getPosts();
   const posts = data.user.publication.posts;
+  console.log(posts);
 
   return {
     props: { posts },
@@ -52,7 +53,7 @@ export default function parchment({ posts }: IPosts) {
           Read more
         </h2>
 
-        <div className="flex flex-col items-center justify-center gap-5 text-2xl">
+        <div className="flex  items-center justify-center gap-16 text-2xl">
           <Link href="https://dantedecodes.hashnode.dev">
             <a
               className="flex items-center space-x-2"
