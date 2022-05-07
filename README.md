@@ -10,8 +10,7 @@
 
 </p>
 
-This is my updated portfolio site
-Need to update this 
+This is my updated portfolio site. It is meant to reflect more of me
 
 <br/>
 
