@@ -22,7 +22,6 @@ interface IPosts {
 export const getStaticProps: GetStaticProps = async () => {
   const data = await getPosts();
   const posts = data.user.publication.posts;
-  console.log(posts);
 
   return {
     props: { posts },

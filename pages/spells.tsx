@@ -41,17 +41,7 @@ export default function Spells({ spells }: SpellProps) {
           ))}
         </div>
       </Section>
-      <Section>
-        <h2 className="mb-2 font-headingAlt text-2xl font-semibold text-gray-100 md:text-3xl">
-          Spells I Am Learning
-        </h2>
-        <p className="prose text-green-100 md:prose-base ">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, qui
-          aspernatur veritatis illo, labore deleniti exercitationem neque
-          numquam quod quaerat distinctio fugiat incidunt eius, velit explicabo!
-          Sed dolor cum omnis.
-        </p>
-      </Section>
+
       <Section>
         <h2 className="mb-2 font-headingAlt text-2xl font-semibold text-gray-100 md:text-3xl">
           My Wizarding Journey

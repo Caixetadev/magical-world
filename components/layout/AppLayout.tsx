@@ -14,7 +14,7 @@ export default function AppLayout({ children }: IProps) {
   return (
     <>
       <Header />
-      <main className="mx-auto min-h-screen max-w-2xl py-10 px-8 sm:py-12">
+      <main className="mx-auto min-h-screen max-w-2xl bg-green-900 py-10 px-8 sm:py-12 md:pb-20">
         {children}
         {/* sm:px-12 sm:py-16 */}
       </main>
